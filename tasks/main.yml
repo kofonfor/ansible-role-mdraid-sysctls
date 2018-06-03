@@ -1,0 +1,3 @@
+---
+- name: set dev.raid.speed_limit_max to {{ mdraid_speed_limit_max }}
+  sysctl: name=dev.raid.speed_limit_max value={{ mdraid_speed_limit_max }}
